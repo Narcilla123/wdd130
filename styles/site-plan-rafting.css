@@ -10,13 +10,13 @@
     --paragraph-font: "PT Serif", serif;
   
     /* these colors below should be chosen from among your palette colors above */
-    --headline-color-on-white: #0d0b0b;  /* headlines on a white background */ 
-    --headline-color-on-color: #e6a356; /* headlines on a colored background */ 
-    --paragraph-color-on-white: #0d0b0b; /* paragraph text on a white background */ 
-    --paragraph-color-on-color: #e6a356; /* paragraph text on a colored background */ 
-    --paragraph-background-color: rgb(92, 160, 237)  ;
+    --headline-color-on-white: #e6a356;  /* headlines on a white background */ 
+    --headline-color-on-color: #0d0b0b; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #e6a356; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #0d0b0b; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #0d0b0b  ;
     --nav-link-color: rgb(92, 160, 237);
-    --nav-background-color: #e6a356;
+    --nav-background-color: #0d0b0b;
     --nav-hover-link-color: white;
     --nav-hover-background-color: rgb(92, 160, 237);
   }
