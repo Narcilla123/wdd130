@@ -1,8 +1,8 @@
 :root {
     /* change the values below to your colors from your palette */
     --primary-color: #0d0b0b   ;
-    --secondary-color: #f8f8f8 ;
-    --accent1-color: #e6a356;
+    --secondary-color:#e6a356 ;
+    --accent1-color: #f8f8f8;
     --accent2-color: rgb(92, 160, 237);
   
     /* change the values below to your chosen font(s) */
