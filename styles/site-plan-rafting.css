@@ -1,9 +1,9 @@
 :root {
     /* change the values below to your colors from your palette */
-    --primary-color: #010101   ;
-    --secondary-color: #cbae55 ;
-    --accent1-color: #e57a6c;
-    --accent2-color: white;
+    --primary-color: #0d0b0b   ;
+    --secondary-color: #f8f8f8 ;
+    --accent1-color: #e6a356;
+    --accent2-color: rgb(96, 167, 249);
   
     /* change the values below to your chosen font(s) */
     --heading-font: "Kay Pho Du", serif;
