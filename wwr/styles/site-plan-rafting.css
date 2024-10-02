@@ -13,7 +13,7 @@
     --paragraph-font: "PT Serif", serif;
   
     /* these colors below should be chosen from among your palette colors above */
-    --headline-color-on-white: #402910;  /* headlines on a white background */ 
+    --headline-color-on-white: #f5f1ec;  /* headlines on a white background */ 
     --headline-color-on-color: #e6a356; /* headlines on a colored background */ 
     --paragraph-color-on-white: #e6a356; /* paragraph text on a white background */ 
     --paragraph-color-on-color: #e6a356; /* paragraph text on a colored background */ 
