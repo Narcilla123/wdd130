@@ -1,8 +1,19 @@
-.IMAGES {
-    font-size: 2em;
-    font-weight: bold;
+.content {
+    max-width: 1600px;
+    text-align: center;
+    margin: 0 auto;
 }
-.book {
-    font-size: 1.5em;
-    line-height: 1.5em;
+.book{
+    text-align: center;
+}
+.Rivers{
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: aqua;
+}
+nav a{
+    text-align: center;
 }
