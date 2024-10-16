@@ -4,56 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>White Water Site</title>
-    <link rel="CSS" href="styles/white-water.css">
+    <link rel="stylesheet" type="text/css" href="styles/white-water.css" />
 </head>
 <body>
-    <header>
-        <img src="images/logo.png" alt="Logo_Image">
-        <nav class="header">
-            <a href="index.html">Home</a>
-            <a href="#">Rivers</a>
-            <a href="#">Rates/Dates</a>
-            <a href="#">Contact Us</a>
-        </nav>
-        <div class="book">
-            <img src="images/hero.png" alt="Hero_Image">
-            <h1>Have an Adventure<h1>
-            <h4>Make Memories with Dry Oar</h4>
-            <div class="button-box">
-                <a href="#">Book Now</a>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div id="content">
-            <div class="IMAGES">
-                <section class="Rivers">
-                    <img src="images/rivers.jpg" alt="river_pic"><img src="images/river_icon.png" alt="rivers_icon">
-                    <h2>Rivers</h2>
-                <section>
-                <section class="Camping">
-                    <img src="images/camping.jpg" alt="Camping_pic"><img src="images/fire_icon.png" alt="fire_icon">
-                    <h2>Camping</h2>
-                </section>
-                <section class="Rapids">
-                    <img src="images/rapids.jpg" alt="Rapids_pic"><img src="images/oars.png" alt="oars_icon">
-                    <h2>Rapids</h2>
-                </section>
-                <div id="background"></div>
-                <section class="Thrill">
-                    <img src="images/mountains.jpg" alt="images/Mountains_pic">
-                    <h2>More Than Just The Thrill</h2>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html" title="Home">
+                <img class="logo" src="images/logo.png" alt="Dry Oar Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">Page 2</a>
+                <a href="site-plan-rafting.html">Site Plan</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+            <div id="hero">
+                <div id="hero-box">
+                    <img id="hero-img" src="images/hero.png" alt="People enjoying white water rafting">
+                </div>
+                <section id="hero-msg">
+                    <h1 class="home-title">Have An Adventure</h1>
+                    <h4>Make Memories with Dry Oar </h4>
+                    <div class='button-box'>
+                        <a class='book' href="contactus.html" title="Book your adventure now">Book Now</a>
+                    </div>
                 </section>
             </div>
-        </div> 
-    </main>
-    <footer>
-        <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapid. It's a great way to get away from it all and relax from amongst all the beauty of the great outdoors</p>
-        <a href="#">Join Us</a>
-        <p>Dry Oar @ 2024 Neils Arcilla</p>
-        <h1 class="f_site_plan"><a href="#">Site Plan</a></h1>
-        <h2 class="f_contact"><a href="#">Contact Us</a></h2>
-        <h3 class="Footer_logo"><img src="images/facebook.png" alt="Facebook_logo"><img src="images/twitter.png" alt="Twitter_logo"><img src="images/instagram.png" alt="Instagram_logo"></h3>
-    </footer>
+        </header>
+        <main class="home-grid">
+            <section class="Rivers">
+                <img class="card-img" src="images/rivers.jpg" alt="A scenic river">
+                <img class="icon" src="images/river_icon.png" alt="River icon">
+                <h2>Rivers</h2>
+            </section>
+            <section class="Camping">
+                <img class="card-img" src="images/camping.jpg" alt="Camping in nature">
+                <img class="icon" src="images/fire_icon.png" alt="Campfire icon">
+                <h2>Camping</h2>
+            </section>
+            <section class="Rapids">
+                <img class="card-img" src="images/rapids.jpg" alt="Exciting rapids">
+                <img class="icon" src="images/oars.png" alt="Oars icon">
+                <h2>Rapids</h2>
+            </section>
+            <div id="background"></div>
+            <img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
+            <section class="msg">
+                <h2>More Than Just The Thrill</h2>
+                <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amidst the beauty of the great outdoors.</p>
+                <a class="join" href="rivers.html">Join Us</a>
+            </section>
+        </main>
+        <footer>
+            <p>Dry Oar @ 2024 Neils Arcilla</p>
+            <p><a href="site-plan-rafting.html">Site Plan</a></p>
+            <p><a href="contactus.html">Contact Us</a></p>
+            <nav id="socials">
+                <a href="https://facebook.com" title="Visit our Facebook page">
+                    <img src="images/facebook.png" alt="Facebook logo">
+                </a>
+                <a href="https://twitter.com" title="Visit our Twitter profile">
+                    <img src="images/twitter.png" alt="Twitter logo">
+                </a>
+                <a href="https://instagram.com" title="Visit our Instagram profile">
+                    <img src="images/instagram.png" alt="Instagram logo">
+                </a>
+            </nav>
+        </footer>
+    </div>
 </body>
 </html>
