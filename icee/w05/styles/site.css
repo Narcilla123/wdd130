@@ -1,0 +1,19 @@
+#lower-background{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+}
+
+#pictures {
+    display: grid;
+    gap: 10px; /* Space between images */
+}
+
+#pictures img{
+    width: 80px;
+    height: 80px;
+}
+#job-name img{
+    width: 240px;
+    height: 80px;
+}
