@@ -1,24 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Kay+Pho+Du:wght@400;500;600;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
+
+
 #content {
     max-width: 1600px;
-    text-align: center;
+    text-align: left;
     margin: 0 auto;
+    
+}
+#hero-msg{
+    text-align: center;
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
+}
+#hero-box{
+    text-align: center;
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
+}
+.home-grid{
+    text-align: center;
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
 }
 nav a{
     text-align: center;
     text-decoration: none;
     color: #eae6e6;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 1.25em;
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
 }
 #book h1, #book h4{
     text-align: center;
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
 }
 .button-box{
     text-align: center;
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
 }
 .mountains{
-    text-align: left;
+    text-align: center;
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
 }
 #background{
     height: 725px;
@@ -26,6 +68,13 @@ nav a{
 }
 body {
     background-color: #fcfbfb; 
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -38,6 +87,10 @@ nav a:hover {
     background-color:rgba(15, 15, 15, 0.7);
     color: #d9c2a3;
     text-decoration: none;
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
 }
 .book:hover, .join:hover{
     background-color:rgba(12, 12, 12, 0.7);
@@ -45,6 +98,10 @@ nav a:hover {
 }
 .msg{
     background-color:rgba(20,30,13, .7);
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
 }
 footer{
     background-color:rgba(20,30,13, .7);
@@ -78,4 +135,11 @@ footer p a:hover {
 .logo {
     width: 80px;
     height: 80px;
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
 }
+
+
+
