@@ -9,11 +9,12 @@
 nav{
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 nav a{
-  text-align: center;
-  color:#000000;
   text-decoration: none;
+  color: inherit;
+  padding: 10px 20px;
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -39,14 +40,16 @@ body{
   padding: 0;
 }
 header{
-  background-color:#308068;
+  background-color: #308068;
   display: grid;
-  grid-template-columns: 150px auto;
+  grid-template-columns: auto 1fr; 
+  align-items: center;
+  padding: 10px 20px;
 }
 nav a:hover{
-  color:#ffffff;
-  background-color:black;
-  padding: 35px;
+  color: #ffffff;
+  background-color: black;
+  padding: 10px 20px;
 }
 .book, .join{
   text-decoration: none;
